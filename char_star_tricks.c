@@ -5,7 +5,7 @@ int main() {
   // char x = 'A';
   short x = 256;
 
-  int ct = 127;
+  int ct = 260;
   for (int i = 0; i < ct; i++) {
     x = 256 + i;
 
@@ -23,4 +23,8 @@ int main() {
     }
     printf("ch as an int: %d\n\n", ch);
   }
+
+  short s = 45;
+  double d = *(double *)&s;
+  printf("double d: %f\n", d);
 }
