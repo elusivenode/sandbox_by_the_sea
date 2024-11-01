@@ -14,5 +14,5 @@ int main(void) {
 
   memcpy(b, a, 3 * sizeof(int)); // Copy 3 ints of data
 
-  printf("%d\n", b[1]); // 22
+  printf("%d\n", b[1]); // 22``
 }
